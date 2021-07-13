@@ -1,0 +1,8 @@
+@media only screen and (max-width:425px){
+    #info-people{
+        width:100%;
+        height: 100%;
+        padding:10px;
+    }
+    
+}
