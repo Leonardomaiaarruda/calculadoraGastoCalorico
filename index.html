@@ -13,6 +13,11 @@
         <section id="info-people">
             <h2>Gasto Calorico</h2>
          
+            <section class="sexo">
+                <label data-sexo = "feminino" >Feminino</label>
+                <label data-sexo = "masculino">Masculino</label>
+            </section>
+
                     <label>
                         <h2>Idade</h2>
                         <input type="text" placeholder="Ex:26" id="idade">
@@ -27,11 +32,8 @@
                         <h2>Peso</h2>
                         <input type="text" placeholder="Ex:76" id="peso">
                     </label>
-                    
-                    <section class="sexo">
-                        <label data-sexo = "feminino" >Feminino</label>
-                        <label data-sexo = "masculino" true>Masculino</label>
-                    </section>
+
+                    <button class="botao">Resultado</button>
        </section>
     </form>
     <div class="resultado"> <h3>--</h3></div>
